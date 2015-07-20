@@ -1,0 +1,2 @@
+def userLoggedIn():
+    return False

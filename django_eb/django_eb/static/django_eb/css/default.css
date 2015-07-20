@@ -1,0 +1,35 @@
+.nav-text {
+    padding: 15px;
+    font-weight: bold;
+}
+
+.nav-text:hover {
+    background-color: #dfdfdf;
+    cursor: pointer;
+
+}
+
+.link-blue {
+    color: rgb(51, 122, 183);
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.link-below-button {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.modal-body .input-group {
+    margin-bottom: 25px;
+}

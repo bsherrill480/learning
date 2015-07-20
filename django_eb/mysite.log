@@ -1,0 +1,65 @@
+[20/Jul/2015 00:08:00] DEBUG [django.db.backends:89] (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[20/Jul/2015 00:08:00] DEBUG [django.db.backends:89] (0.000) QUERY = 'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[20/Jul/2015 00:14:32] DEBUG [django.db.backends:89] (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[20/Jul/2015 00:14:32] DEBUG [django.db.backends:89] (0.000) QUERY = 'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[20/Jul/2015 00:18:53] DEBUG [django.db.backends:89] (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[20/Jul/2015 00:18:53] DEBUG [django.db.backends:89] (0.000) QUERY = 'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[20/Jul/2015 00:19:36] DEBUG [django.db.backends:89] (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[20/Jul/2015 00:19:36] DEBUG [django.db.backends:89] (0.000) QUERY = 'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[20/Jul/2015 00:19:45] DEBUG [django.db.backends:89] (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[20/Jul/2015 00:19:45] DEBUG [django.db.backends:89] (0.000) QUERY = 'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[20/Jul/2015 00:20:51] DEBUG [django.db.backends:89] (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[20/Jul/2015 00:20:51] DEBUG [django.db.backends:89] (0.000) QUERY = 'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[20/Jul/2015 00:20:57] ERROR [django.request:256] Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/brian/WebDev/beanstalk/venv/lib/python3.4/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/brian/WebDev/beanstalk/eb_django_app/django_eb/homepage/views.py", line 9, in homepage
+    return render(request, 'homepage/index.html')
+  File "/home/brian/WebDev/beanstalk/eb_django_app/django_eb/django_eb/common/default_render.py", line 7, in render
+    logger("homepage hit")
+TypeError: 'Logger' object is not callable
+[20/Jul/2015 00:21:24] DEBUG [django.db.backends:89] (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[20/Jul/2015 00:21:24] DEBUG [django.db.backends:89] (0.000) QUERY = 'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[20/Jul/2015 00:21:26] DEBUG [django_eb.common.default_render:7] homepage hit
+[20/Jul/2015 00:22:19] DEBUG [django_eb.common.default_render:7] homepage hit
+[20/Jul/2015 00:22:28] DEBUG [django_eb.common.default_render:7] homepage hit
+[20/Jul/2015 00:22:29] DEBUG [django_eb.common.default_render:7] homepage hit
+[20/Jul/2015 00:22:34] DEBUG [django_eb.common.default_render:7] homepage hit
+[20/Jul/2015 00:22:34] WARNING [django.request:170] Not Found: /favicon.ico
+[20/Jul/2015 00:22:44] DEBUG [django.db.backends:89] (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[20/Jul/2015 00:22:44] DEBUG [django.db.backends:89] (0.001) QUERY = 'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[20/Jul/2015 00:27:20] DEBUG [django.db.backends:89] (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[20/Jul/2015 00:27:20] DEBUG [django.db.backends:89] (0.000) QUERY = 'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[20/Jul/2015 00:27:27] DEBUG [django.db.backends:89] (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[20/Jul/2015 00:27:27] DEBUG [django.db.backends:89] (0.000) QUERY = 'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[20/Jul/2015 00:31:07] DEBUG [django.db.backends:89] (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[20/Jul/2015 00:31:07] DEBUG [django.db.backends:89] (0.000) QUERY = 'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[20/Jul/2015 00:31:08] DEBUG [django_eb.common.default_render:7] homepage hit
+[20/Jul/2015 00:32:44] DEBUG [django.db.backends:89] (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[20/Jul/2015 00:32:44] DEBUG [django.db.backends:89] (0.000) QUERY = 'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[20/Jul/2015 00:32:46] DEBUG [django_eb.common.default_render:7] homepage hit
+[20/Jul/2015 00:32:52] DEBUG [django_eb.common.default_render:7] homepage hit
+[20/Jul/2015 00:34:10] DEBUG [django.db.backends:89] (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[20/Jul/2015 00:34:10] DEBUG [django.db.backends:89] (0.000) QUERY = 'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[20/Jul/2015 00:34:10] DEBUG [django_eb.common.logger:6] homepage hit
+[20/Jul/2015 00:34:14] DEBUG [django_eb.common.logger:6] homepage hit
+[20/Jul/2015 00:34:41] DEBUG [django.db.backends:89] (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[20/Jul/2015 00:34:41] DEBUG [django.db.backends:89] (0.000) QUERY = 'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[20/Jul/2015 00:34:47] DEBUG [django_eb.common.logger:5] register user request received
+[20/Jul/2015 00:34:47] DEBUG [django_eb.common.logger:6] homepage hit
+[20/Jul/2015 00:35:42] DEBUG [django.db.backends:89] (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[20/Jul/2015 00:35:42] DEBUG [django.db.backends:89] (0.000) QUERY = 'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[20/Jul/2015 00:35:45] DEBUG [django_eb.common.logger:5] <WSGIRequest: POST '/register/'>
+[20/Jul/2015 00:35:45] DEBUG [django_eb.common.logger:6] homepage hit
+[20/Jul/2015 00:38:46] DEBUG [django.db.backends:89] (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[20/Jul/2015 00:38:46] DEBUG [django.db.backends:89] (0.000) QUERY = 'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[20/Jul/2015 00:39:03] DEBUG [django_eb.common.logger:5] <WSGIRequest: POST '/register/'>
+[20/Jul/2015 00:39:03] DEBUG [django_eb.common.logger:6] homepage hit
+[20/Jul/2015 00:55:48] DEBUG [django.db.backends:89] (0.016) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[20/Jul/2015 00:55:48] DEBUG [django.db.backends:89] (0.001) QUERY = 'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
+[20/Jul/2015 00:55:50] DEBUG [django_eb.common.logger:6] homepage hit
+[20/Jul/2015 00:55:59] DEBUG [django_eb.common.logger:5] <QueryDict: {'password': ['aad'], 'password-verify': ['asdf'], 'csrfmiddlewaretoken': ['KDosgD4845N0OSwZHcqmjvkqMjkn7IKV'], 'email': ['asdf'], 'username': ['asdfasdf']}>
+[20/Jul/2015 00:55:59] DEBUG [django_eb.common.logger:6] homepage hit
+[20/Jul/2015 01:04:23] DEBUG [django.db.backends:89] (0.001) QUERY = "\n            SELECT name, type FROM sqlite_master\n            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'\n            ORDER BY name" - PARAMS = (); args=None
+[20/Jul/2015 01:04:23] DEBUG [django.db.backends:89] (0.000) QUERY = 'SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"' - PARAMS = (); args=()
