@@ -1,0 +1,17 @@
+.borderless-table td, .borderless-table th {
+    border-left: 0;
+    border-right: 0;
+}
+
+.vocab-table {
+    font-size: 18px;
+}
+
+/*had to add extra specificity to override bootstrap*/
+.vocab-table tbody tr td {
+    vertical-align: middle;
+}
+
+.large-first-column tr td:nth-child(1) {
+    font-size: 1.5em;
+}

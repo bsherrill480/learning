@@ -12,3 +12,36 @@
 [20/Jul/2015 00:55:50] DEBUG [django_eb.common.logger:6] homepage hit
 [20/Jul/2015 00:55:59] DEBUG [django_eb.common.logger:5] <QueryDict: {'password': ['aad'], 'password-verify': ['asdf'], 'csrfmiddlewaretoken': ['KDosgD4845N0OSwZHcqmjvkqMjkn7IKV'], 'email': ['asdf'], 'username': ['asdfasdf']}>
 [20/Jul/2015 00:55:59] DEBUG [django_eb.common.logger:6] homepage hit
+[20/Jul/2015 03:00:29] DEBUG [django_eb.common.logger:6] <QueryDict: {'password': ['killer'], 'email': ['val@email.com'], 'csrfmiddlewaretoken': ['KDosgD4845N0OSwZHcqmjvkqMjkn7IKV'], 'password-verify': ['killer'], 'username': ['val']}>
+[20/Jul/2015 03:06:17] DEBUG [django_eb.common.logger:6] <QueryDict: {'username': ['me'], 'email': ['myself@email.com'], 'csrfmiddlewaretoken': ['KDosgD4845N0OSwZHcqmjvkqMjkn7IKV'], 'password': ['killer'], 'password-verify': ['killer']}>
+[20/Jul/2015 03:06:17] DEBUG [django_eb.common.logger:16] NO USER MADE
+[20/Jul/2015 03:07:56] DEBUG [django_eb.common.logger:6] <QueryDict: {'csrfmiddlewaretoken': ['KDosgD4845N0OSwZHcqmjvkqMjkn7IKV'], 'password': ['killer'], 'email': ['myself@email.com'], 'password-verify': ['killer'], 'username': ['myself']}>
+[20/Jul/2015 03:10:44] DEBUG [django_eb.common.logger:6] <QueryDict: {'email': ['asdf'], 'password-verify': ['asdf'], 'csrfmiddlewaretoken': ['KDosgD4845N0OSwZHcqmjvkqMjkn7IKV'], 'password': ['asdf'], 'username': ['asdf']}>
+[20/Jul/2015 03:10:44] DEBUG [django_eb.common.logger:16] NO USER MADE:"'confirm-password'"
+[20/Jul/2015 03:11:48] DEBUG [django_eb.common.logger:6] <QueryDict: {'password': ['asdf'], 'password-verify': ['asdf'], 'username': ['asdf'], 'csrfmiddlewaretoken': ['KDosgD4845N0OSwZHcqmjvkqMjkn7IKV'], 'email': ['asdf']}>
+[20/Jul/2015 03:11:48] DEBUG [django_eb.common.logger:16] NO USER MADE: "'confirm-password'"
+[20/Jul/2015 03:12:59] DEBUG [django_eb.common.logger:6] <QueryDict: {'password': ['asdf'], 'password-verify': ['asdf'], 'username': ['asdf'], 'csrfmiddlewaretoken': ['KDosgD4845N0OSwZHcqmjvkqMjkn7IKV'], 'email': ['asdf']}>
+[20/Jul/2015 03:12:59] DEBUG [django_eb.common.logger:16] NO USER MADE: "'confirm-password'"
+[20/Jul/2015 03:13:33] DEBUG [django_eb.common.logger:6] <QueryDict: {'csrfmiddlewaretoken': ['KDosgD4845N0OSwZHcqmjvkqMjkn7IKV'], 'email': ['asdf'], 'confirm-password': ['asdf'], 'password': ['asdf'], 'username': ['asdfasdf']}>
+[20/Jul/2015 03:13:34] DEBUG [django_eb.common.logger:14] asdfasdf
+[20/Jul/2015 04:25:47] DEBUG [django_eb.common.logger:7] <QueryDict: {'email': ['bsherrill9@hotmail.com'], 'password': ['killer'], 'username': ['bsherrill'], 'csrfmiddlewaretoken': ['KDosgD4845N0OSwZHcqmjvkqMjkn7IKV'], 'confirm-password': ['killer']}>
+[20/Jul/2015 04:25:47] DEBUG [django_eb.common.logger:15] bsherrill
+[20/Jul/2015 04:31:57] DEBUG [django_eb.common.logger:22] <QueryDict: {'username': ['bsherrill'], 'csrfmiddlewaretoken': ['ca8SXgvft2Cc9Ph55BX4C7ge29yqonIE'], 'password': ['killer']}>
+[20/Jul/2015 04:55:04] DEBUG [django_eb.common.logger:22] <QueryDict: {'password': [''], 'csrfmiddlewaretoken': ['KDosgD4845N0OSwZHcqmjvkqMjkn7IKV'], 'username': ['']}>
+[20/Jul/2015 05:04:55] DEBUG [django_eb.common.logger:7] <QueryDict: {'email': ['val@email.com'], 'confirm-password': ['killer'], 'username': ['val'], 'csrfmiddlewaretoken': ['2RwSRQ3Qz4Wy0e2cjxOSU9rxyZxroq9i'], 'password': ['killer']}>
+[20/Jul/2015 05:04:55] DEBUG [django_eb.common.logger:15] val
+[20/Jul/2015 05:05:03] DEBUG [django_eb.common.logger:22] <QueryDict: {'username': ['val'], 'csrfmiddlewaretoken': ['2RwSRQ3Qz4Wy0e2cjxOSU9rxyZxroq9i'], 'password': ['killer']}>
+[20/Jul/2015 08:41:25] DEBUG [django_eb.common.logger:22] <QueryDict: {'username': ['val'], 'csrfmiddlewaretoken': ['A703bdvvFtmBrDfKTb1ZJcQCQfGJk4Xy'], 'password': ['killer']}>
+[20/Jul/2015 08:43:26] DEBUG [django_eb.common.logger:36] Logged out user
+[20/Jul/2015 08:43:53] DEBUG [django_eb.common.logger:36] Logged out user
+[20/Jul/2015 08:44:35] DEBUG [django_eb.common.logger:22] <QueryDict: {'password': ['killer'], 'username': ['val'], 'csrfmiddlewaretoken': ['RKUs9a0Z0leXMsZoKsPMI4pIsNJx5WVh']}>
+[20/Jul/2015 08:44:41] DEBUG [django_eb.common.logger:36] Logged out user
+[20/Jul/2015 08:46:25] DEBUG [django_eb.common.logger:22] <QueryDict: {'username': ['val'], 'csrfmiddlewaretoken': ['76BVbExuNBwpZMhfOUCjuqrDr7eKIPvs'], 'password': ['killer']}>
+[20/Jul/2015 08:46:29] DEBUG [django_eb.common.logger:36] Logged out user
+[20/Jul/2015 09:07:18] DEBUG [django_eb.common.logger:22] <QueryDict: {'username': ['val'], 'csrfmiddlewaretoken': ['KDosgD4845N0OSwZHcqmjvkqMjkn7IKV'], 'password': ['killer']}>
+[20/Jul/2015 09:07:22] DEBUG [django_eb.common.logger:36] Logged out user
+[20/Jul/2015 09:07:31] DEBUG [django_eb.common.logger:22] <QueryDict: {'username': ['val'], 'csrfmiddlewaretoken': ['gvdPJmjKgTnanEwlR7xMKEO8pHqzkdXA'], 'password': ['killer']}>
+[20/Jul/2015 09:07:34] DEBUG [django_eb.common.logger:36] Logged out user
+[20/Jul/2015 09:07:45] DEBUG [django_eb.common.logger:22] <QueryDict: {'username': ['val'], 'csrfmiddlewaretoken': ['GcOuiVnH6nf96iJYwLvDNPIQgTUD9Bht'], 'password': ['killer']}>
+[20/Jul/2015 09:11:18] DEBUG [django_eb.common.logger:36] Logged out user
+[21/Jul/2015 06:57:46] DEBUG [django_eb.common.logger:22] <QueryDict: {'username': ['val'], 'csrfmiddlewaretoken': ['Bji9JmCDdVte2nUboo0IxSZ7fAjkJkJr'], 'password': ['killer']}>

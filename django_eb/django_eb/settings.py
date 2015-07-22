@@ -38,7 +38,8 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_eb',
-    'homepage'
+    'homepage',
+    'chinese'
 )
 
 MIDDLEWARE_CLASSES = (
